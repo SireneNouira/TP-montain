@@ -7,7 +7,7 @@
     <title>Document</title>
   </head>
   <body>
-    <section class="bg-local bg-[url('/images/bg_header.jpg')] bg-cover">
+    <section class="bg-local bg-[url('/images/bg_header.jpg')] bg-cover bg-center h-screen">
       <header id="home" class="p-5">
         <nav class="flex items-center justify-between">
           <div class="flex items-center w-40">
@@ -18,12 +18,12 @@
         </nav>
       </header>
       <article
-        class="flex flex-col text-white justify-center items-center text-center p-10 gap-8 tracking-wide"
+        class="flex flex-col text-white justify-center items-center text-center p-10 gap-8 tracking-wide lg:px-72 xl:px-96 xl:pt-32"
       >
-        <h1 class="text-3xl">
-          In the hall of <br />
+        <h1 class="text-3xl md:text-5xl">
+          In the hall of 
           the <br />
-          <strong class="text-5xl"
+          <strong class="text-5xl md:text-6xl"
             >Mountain <br />
             King</strong
           >
@@ -32,9 +32,9 @@
           This is a simple hero unit, a simple jumbotron-style component for
           calling extra attention to featured content of information.
         </p>
-        <div class="flex flex-col justify-center items-center pb-10">
-          <a href="#" class="bg-teal-400 p-3 gap-0">Learn more</a>
-          <a href="#" class="bg-rose-600 p-3 gap-0 w-[92%]">Download</a>
+        <div class="flex flex-col justify-center items-center pb-10 lg:flex-row lg:gap-1">
+          <a href="#" class="bg-teal-400 p-3  ">Learn more</a>
+          <a href="#" class="bg-rose-600 p-3  ">Download</a>
         </div>
       </article>
     </section>
@@ -67,7 +67,7 @@
         </p>
       </article>
     </section>
-    <section id="blog" class="bg-[url('/images/bg_nuage.jpg')]  bg-cover lg:pl-[45%] lg:pr-[10%]  ">
+    <section id="blog" class="bg-[url('/images/bg_nuage.jpg')]  bg-cover bg-center h-auto lg:pl-[45%] lg:pr-[10%]  ">
       <div class="bg-sky-300/50 m-10 pb-9 text-white  ">
         <article class="flex flex-col gap-6 p-4 pt-14">
         <h3 class="text-2xl lg:text-3xl">Ligula Mattis Ognare Ultricies</h3>
@@ -103,7 +103,7 @@
   <div class="lg:w-[40%] xl:w-[60%]">
     <img src="images/1200.jpeg" alt="velo" class="pt-2.5 md:w-[80%] lg:w-[100%] lg:p-0"></div>
     </section>
-    <section id="blog" class="bg-[url('/images/bg_appareil_photo.jpg')]  bg-cover lg:pr-[45%] lg:pl-[10%] ">
+    <section id="blog" class="bg-[url('/images/bg_appareil_photo.jpg')]  bg-cover bg-center h-auto lg:pr-[45%] lg:pl-[10%] ">
       <div class="bg-sky-300/50 m-10 pb-9 text-white">
         <article class="flex flex-col gap-6 p-4 pt-14">
         <h3 class="text-xl">Ligula Mattis Ognare Ultricies Ligula Mattis Ognare Ultricies Ligula Mattis Ognare Ultricies</h3>
@@ -117,14 +117,14 @@
       </div>
     </section>
     <section class="bg-zinc-300 py-10 flex justify-center">
-    <section id="photos" class=" flex flex-col gap-3  sm:grid  sm:grid-cols-3 sm:grid-rows-4 sm:w-[80%] lg:px-40 lg:w-[95%] xl:px-52 xl:w-[90%] 2xl:px-0  2xl:w-[50%]">
-      <img src="images/300.jpeg" alt="premiere" class="sm:object-cover sm:row-span-1 sm:w-[100%] sm:h-[80%] xl:col-span-2 xl:w-[100%] xl:h-[100%]">
-      <img src="images/776.jpeg" alt="montagne" class="sm:object-cover sm:row-span-4 sm:w-[100%] sm:h-[80%] xl:row-span-2 xl:w-[100%] xl:h-[100%]">
+    <section id="photos" class=" flex flex-col gap-3  sm:grid  sm:grid-cols-3 sm:grid-rows-4  sm:grid-rows-[8em_200px_8em_6em] sm:w-[70%] lg:px-40 lg:w-[95%] xl:px-52 xl:w-[90%] 2xl:px-0  2xl:w-[50%]">
+      <img src="images/300.jpeg" alt="premiere" class="sm:object-cover sm:row-span-1  sm:w-[100%] sm:h-[100%] xl:col-span-2 xl:w-[100%] xl:h-[100%]">
+      <img src="images/776.jpeg" alt="montagne" class="sm:object-cover sm:row-span-4 sm:w-[100%] sm:h-[100%] xl:row-span-2 xl:w-[100%] xl:h-[100%]">
      <img src="images/800.jpeg" alt="tour" class="sm:object-cover sm:row-span-2 sm:w-[100%] sm:h-[100%] xl:col-span-1 xl:row-span-2 xl:w-[100%] xl:h-[100%]">
       <img src="images/400.jpeg" alt="homme" class="sm:object-cover sm:row-span-1 sm:w-[100%] sm:h-[100%] xl:col-span-1 xl:w-[100%] xl:h-[100%]">
-      <img src="images/2476.jpeg" alt="camera" class="sm:object-cover sm:row-span-1 sm:w-[100%] sm:h-[80%] xl:w-[100%] xl:h-[100%]">
-      <img src="images/439.jpeg" alt="avion" class="sm:object-cover sm:row-span-2 sm:w-[100%] sm:h-[60%] xl:row-span-2 xl:w-[100%] xl:h-[100%]">
-      <img src="images/140.jpeg" alt="motel" class="sm:object-cover sm:row-span-1 sm:w-[100%] sm:h-[50%] xl:col-span-2 xl:w-[100%] xl:h-[100%]">
+      <img src="images/2476.jpeg" alt="camera" class="sm:object-cover sm:row-span-1 sm:w-[100%] sm:h-[100%] xl:w-[100%] xl:h-[100%]">
+      <img src="images/439.jpeg" alt="avion" class="sm:object-cover sm:row-span-2 sm:w-[100%] sm:h-[100%] xl:row-span-2 xl:w-[100%] xl:h-[100%]">
+      <img src="images/140.jpeg" alt="motel" class="sm:object-cover sm:row-span-1 sm:w-[100%] sm:h-[100%] xl:col-span-2 xl:w-[100%] xl:h-[100%]">
       </section>
     </section>
       <section class="partenaires md:flex  md:flex-wrap md:px-20 ">
@@ -135,7 +135,7 @@
       <img src="images/logo-sample-05.jpg" alt="" class="w-[16%]">
       <img src="images/logo-sample-06.png" alt="" class="w-[16%]">
     </section>
-    <section id="contact" class="p-8  bg-[url('/images/bg_newsletter.jpg')] text-white">
+    <section id="contact" class="p-8  bg-[url('/images/bg_newsletter.jpg')] text-white bg-cover h-auto ">
 <h5 class="text-3xl">Maecenas sed diam eget risus varuis blandit sit amet non magna.</h5>
 <p class="my-6">Aenean eu loe quam. Pallentesque ornanre sem lacina quam veneatis vestibulum. Cras mattis consecteur purus sity almet fermentur. Prasent commodo cursus magna, vel scelerique nisl consectur et. Praesent commodo curusus magna, vel scelerique ,nikld consectu et.</p>
 <form method="post" action="treatment.php">
@@ -144,7 +144,7 @@
 </form>
 <a href="#" class="bg-rose-500 p-2 text-white">Submit Newsletter</a>
     </section>
-    <footer class="text-white bg-cover bg-slate-700 p-5 ">
+    <footer class="text-white  bg-slate-700 p-5 bg-cover ">
       <h6 class="text-2xl pb-5">Your Logo</h6>
       <p class="text-xs">2016 Your Company, Designed and Developed by <span class="text-cyan-400">The Maitre jet d'ail</span></p>
       
